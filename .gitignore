@@ -7,19 +7,3 @@ env/
 venv/
 ENV/
 .venv/
-
-# Model weights
-*.weights
-*.pt
-*.onnx
-*.engine
-
-# Datasets
-**/dataset/
-**/datasets/
-
-# Large media files
-*.mp4
-*.avi
-*.mkv
-*.mov
