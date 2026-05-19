@@ -29,6 +29,6 @@ markers = cv2.watershed(img, markers)
 
 img[markers == -1] = [0, 0, 255]
 
-cv2.imshow('Unknown Region', img)
+cv2.imshow('Watershed Result', img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()

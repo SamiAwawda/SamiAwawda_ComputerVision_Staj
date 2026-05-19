@@ -20,7 +20,7 @@ corners = cv2.dilate(corners, None)
 
 img[corners > 0.1 * corners.max()] = [0, 0, 255]
 
-cv2.imshow('Original', img)
-cv2.imshow('Edges (Canny)', edges)
+cv2.imshow('Corner Detection', img)
+cv2.imshow('Edge Detection', edges)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
